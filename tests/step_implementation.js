@@ -13,7 +13,8 @@ const headless = process.env.headless_chrome.toLowerCase() === 'true';
 beforeSuite(async () => {
     await openBrowser({
         headless: headless,
-        args: ["--start-maximized"]
+        args:['--window-size=1440,900']
+        //args: ["--start-maximized"]
     })
 
 });

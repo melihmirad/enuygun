@@ -38,8 +38,13 @@ step("Select Departure times filter", async function() {
 
 step("Select time <arg0> and <arg1>", async function(time1, time2) {
 	
-    await click({x : 520, y : 610})
-    await click({x : 600, y : 610})
+    // Fullscreen properties
+    //await click({x : 520, y : 610})
+    //await click({x : 600, y : 610})
+
+    // 1440*900 properties
+    await click({x : 270, y : 610})
+    await click({x : 350, y : 610})
 
 });
 
