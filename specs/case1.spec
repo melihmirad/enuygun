@@ -7,9 +7,9 @@
 * Select flight "Gidiş-dönüş"
 
 * Select flight from "İstanbul"
-* Select flight where "izmir"
+* Select flight where "Ankara"
 
-* Select flight when "14" and "24"
+* Select flight when "22" and "24"
 
 * Select flight traveler number "1"
 
